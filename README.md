@@ -41,6 +41,6 @@ $ pipenv run python predict.py {image_path} {checkpoint_path}
 ```
 
 You may specify the following arguments using the above command:
--`--top_k`, by specifying a number, k, after this argument you specify the k most likely guesses for the image that you have supplied
--`--category_names`, use this to specify a different json file to use as the mapping of categories to names. By default, the script will use the supplied `cat_to_name.json`
+- `--top_k`, by specifying a number, k, after this argument you specify the k most likely guesses for the image that you have supplied
+- `--category_names`, use this to specify a different json file to use as the mapping of categories to names. By default, the script will use the supplied `cat_to_name.json`
 - `--gpu`, specifies whether to run on the cpu or the gpu if gpu is available
